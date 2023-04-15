@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@600&display=swap');
+.logohome{
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.logo{
+    width: 30%;
+}
+.logo1{
+    width: 15%;
+}
+.Middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+/* ------------------button 3d----------------- */
+
+#link{
+    text-decoration: none;
+}
+#nav{
+    background-color:  #F1F8FF!important ;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.txt{
+    color:  #0F172B!important;
+    font-size: 25px!important;
+    font-weight: 900!important;
+}
+@media screen and (max-width:900px){
+    .navbar-brand{
+        display: flex;
+        justify-content: center;
+    }
+}
